@@ -14,16 +14,9 @@ cd employees-react-express-
 3. Install:
 ```
 npm install
-
-```
 cd client
 npm install
-```
-
-```
 cd ..
-```
-```
 npm run dev
 ```
 4. Open http://localhost:3000.
