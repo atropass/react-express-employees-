@@ -13,17 +13,17 @@ import { useSelector } from "react-redux";
 
 const columns: ColumnsType<Employee> = [
   {
-    title: "Имя",
+    title: "Name",
     dataIndex: "firstName",
     key: "firstName",
   },
   {
-    title: "Возраст",
+    title: "Age",
     dataIndex: "age",
     key: "age",
   },
   {
-    title: "Адрес",
+    title: "Address",
     dataIndex: "address",
     key: "address",
   },

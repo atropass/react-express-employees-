@@ -22,10 +22,10 @@ export const EmployeeForm = ({
   return (
     <Card title={title} style={{ width: "30rem" }}>
       <Form name="add-employee" onFinish={onFinish} initialValues={employee}>
-        <CustomInput type="text" name="firstName" placeholder="Имя" />
-        <CustomInput name="lastName" placeholder="Фамилия" />
-        <CustomInput type="number" name="age" placeholder="Возраст" />
-        <CustomInput name="address" placeholder="Адрес" />
+        <CustomInput type="text" name="firstName" placeholder="Name" />
+        <CustomInput name="lastName" placeholder="Last Name" />
+        <CustomInput type="number" name="age" placeholder="Age" />
+        <CustomInput name="address" placeholder="Address" />
         <Space direction="vertical" size="large">
           <ErrorMessage message={ error } />
           <CustomButton htmlType="submit">{btnText}</CustomButton>
